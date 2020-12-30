@@ -4,7 +4,7 @@
 echo "Smile if u r reading this ^-^ "
 
 count=1
-cat testedtext.txt | while read line
+cat testedtext.txt| while read line
 do
 if [[ "$line" =~ .*"$1".* ]]
 then
